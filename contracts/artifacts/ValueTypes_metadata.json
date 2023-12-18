@@ -281,11 +281,11 @@
 	},
 	"sources": {
 		"contracts/002_ValueTypes.sol": {
-			"keccak256": "0x9810c6cb40d4e5422b5175f5b93f1a6047ed2a19e07754758ba4ee1bc134a3d6",
+			"keccak256": "0x5d721c791dfe579200f53b0023f9e8e7e8df2d9fd6da059dfe4b12332b1073e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://727bda2c5c7b0005a30d049bf1f4b3c2a475bd1d19ceef3d2324aee66d166246",
-				"dweb:/ipfs/QmexqDyEicesto8brGsvWDVttNX4QHkvDTj8tsqbbgAHAp"
+				"bzz-raw://91b68d961b11ead567b315867c5176be763f42fa09c742b62d83724374c8c601",
+				"dweb:/ipfs/QmayoVc8pXr6TtMhpDnb7gZtkhQvz5Yu5EH5333jjgHPjh"
 			]
 		}
 	},

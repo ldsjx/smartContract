@@ -7,20 +7,164 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "arrayPush",
+				"name": "daysUnit",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256"
 					}
 				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getArrayLength",
+				"name": "getValues",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "global",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gweiUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hoursUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minutesUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "secondsUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "weeksUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "weiUnit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -33,15 +177,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "initArray",
+				"name": "y",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "z",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,7 +215,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/006_ArrayAndStruct.sol": "Variables"
+			"contracts/005_Variables.sol": "Variables"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +229,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/006_ArrayAndStruct.sol": {
-			"keccak256": "0x30679d5c8bfaab2863ff7f64c033f9fc84173237556c8dc46d6415edd09545a3",
+		"contracts/005_Variables.sol": {
+			"keccak256": "0xbb1a2f086cb987440708640f96616e11937955406ee7721adfe4941859b972ab",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3e734e1ba4a478c0b5d16864a5af6ec75c8b305036f629120151cf16c7054c57",
-				"dweb:/ipfs/QmdaXYeNXT71e5Yi6DEfZLmj6cE4tpimhAdv1SCTofkvzc"
+				"bzz-raw://4ee980f1b53a6e5766d79cd8a6c8787490739d6f2f0e4e0fb1acec55cb2548cf",
+				"dweb:/ipfs/QmQLeezvKcyBdD1YjGLdiesioRvv2zn3UUYKJTHFRwi7Ej"
 			]
 		}
 	},

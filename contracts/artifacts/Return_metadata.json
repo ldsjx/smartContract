@@ -108,11 +108,11 @@
 	},
 	"sources": {
 		"contracts/004_Return.sol": {
-			"keccak256": "0x75bba250869efac3818111f575fe560669868dbaa128f4b35804abd8a50a6053",
+			"keccak256": "0x4c6f92c892d0f1268940ba19c4016e85818ffe53bab6a37a74a5b84051d6b70d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://51c6e4913558e6c6553f25f5beb28637399d05f4a1f5c4ef0544f17dc006f760",
-				"dweb:/ipfs/QmZSXixbPDsyBBgQdfaVgzqX2HPZd1HggxqYnfMD4qiCjx"
+				"bzz-raw://b236c6b158c434a16f8fde9f5083d169da3f2951f95bb5d28dba6f3d91b17032",
+				"dweb:/ipfs/QmUnwvVJxgdaVdqxyhApzZT1fY6YMZbxrs44EDcLBwEaD8"
 			]
 		}
 	},

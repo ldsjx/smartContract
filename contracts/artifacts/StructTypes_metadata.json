@@ -7,100 +7,30 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "_address",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_bool",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_enum",
-				"outputs": [
-					{
-						"internalType": "enum StructTypes.ActionSet",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_int",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_string",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_uint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fe",
+				"name": "initStudent1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "test",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "initStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initStudent3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initStudent4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -117,7 +47,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/008_.sol": "StructTypes"
+			"contracts/006_StructTypes.sol": "StructTypes"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -131,12 +61,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/008_.sol": {
-			"keccak256": "0x1f412a0f4892c82cb21cfc78f32a665467c0d6b8228283fa7d6df3d4616b965a",
+		"contracts/006_StructTypes.sol": {
+			"keccak256": "0xdb67222e9e466e2cbc9964fae2a096a5787340765baca953abdf844df844c510",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://788c5a6284b7cf6d09faf541cd7123e63884f5f76fd9e707220323ebbf1eb833",
-				"dweb:/ipfs/Qmex74DV7wc64SNS33EiNQ22ctNvf5HQ5Av6LZgpAjgZZa"
+				"bzz-raw://444594c1916e43f78719a4aec90d3324e46b50d01fef6772778aefaebaf32abe",
+				"dweb:/ipfs/QmTBEHR58Tuco1MZHLPsGSUZYYA173VhZavtYriVeLjoSJ"
 			]
 		}
 	},

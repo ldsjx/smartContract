@@ -230,7 +230,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/008_InitialValue\n.sol": "InitialValue"
+			"contracts/008_InitialValue.sol": "InitialValue"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -244,12 +244,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/008_InitialValue\n.sol": {
-			"keccak256": "0x1f9715c03fd6082c0e604ab74ca0f5ccf9f584d99751be104de2c89000480372",
+		"contracts/008_InitialValue.sol": {
+			"keccak256": "0xcdf8c1cf447cb3fcf5c6d1fe821e703b7cd9238c98297b73b1ea9aa3612d152e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://957c90f40a2994a6bb1fd6ba5eab9505addf53022357b37b50775c00f591a6d6",
-				"dweb:/ipfs/QmeFiSpPfT559W7kzhvYbyrLXvdUdqgGN7eKNV9QTBRHky"
+				"bzz-raw://a92f8393388d2f974b7838ceb0cac516f24923f15760a313fce5cf246908b32c",
+				"dweb:/ipfs/QmTwvgN3NUqk7pSqHxJt4mVLZ7LHgLwz9aJFcnW4e3t4Ze"
 			]
 		}
 	},

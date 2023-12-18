@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/006_EnumTypes\n.sol": {
-			"keccak256": "0xce450d244c1250db748c97ea5a6cee9df8f3ee58b1dbfd0e783f534253147f1b",
+			"keccak256": "0x296a8b05c8925f5bfe7bc68078cfe23448373924015cf86054b6b3980595c754",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f85d0b19f172d5e506f10445fef9970eef3124dd1b4bb1928dd18418dba79717",
-				"dweb:/ipfs/QmXutKeki6ZnStTaGPF1kPyk7P6sgKwYgpix7sZCU7EunF"
+				"bzz-raw://6b0a95fcc8da3fd6f988aab5e45d8f54f6622c14b182014f752a6c40ad515062",
+				"dweb:/ipfs/QmSkCyPZpb9TzaQTjwKwFKzeLjnyqhcpYgVgiL3hpXij9h"
 			]
 		}
 	},
