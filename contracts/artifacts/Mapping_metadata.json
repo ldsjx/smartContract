@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "idToAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "swapPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_Value",
+						"type": "address"
+					}
+				],
+				"name": "writeMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Key",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_Value",
+						"type": "address"
+					}
+				],
+				"name": "writeMapAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/007_Mapping.sol": "Mapping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/007_Mapping.sol": {
+			"keccak256": "0xe3c51332cd2f3be16828d30faf10db862033952ba84effdbac8c7618122efe1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03ff2940341243873eaf4885e76971a1612d74bb256ee84c397fe56bb0c8ce80",
+				"dweb:/ipfs/QmaT6tFpRdjdpz8JNaxpeKvTTjYkFCeSSmAFM6Rq6KU6wH"
+			]
+		}
+	},
+	"version": 1
+}

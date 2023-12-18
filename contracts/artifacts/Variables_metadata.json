@@ -7,164 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "daysUnit",
+				"name": "arrayPush",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "etherUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getValues",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "global",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "gweiUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hoursUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minutesUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "secondsUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "weeksUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "weiUnit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
+				"name": "getArrayLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -177,28 +33,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "y",
+				"name": "initArray",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "z",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -215,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/005_Variables.sol": "Variables"
+			"contracts/006_ArrayAndStruct.sol": "Variables"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -229,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/005_Variables.sol": {
-			"keccak256": "0x71950611ed62cdce5bc1a0481c62a104678a05951b379315edf24c9dbc0987d1",
+		"contracts/006_ArrayAndStruct.sol": {
+			"keccak256": "0x30679d5c8bfaab2863ff7f64c033f9fc84173237556c8dc46d6415edd09545a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5488f9de77c02d221abca597d1e8b5e5ed88d92b66b23582ee8dfe4ee55f1b97",
-				"dweb:/ipfs/QmQ4Txqc9wRWf2rqZZhSW9hRUEjtBS9gm1hjyrusgG15gH"
+				"bzz-raw://3e734e1ba4a478c0b5d16864a5af6ec75c8b305036f629120151cf16c7054c57",
+				"dweb:/ipfs/QmdaXYeNXT71e5Yi6DEfZLmj6cE4tpimhAdv1SCTofkvzc"
 			]
 		}
 	},
