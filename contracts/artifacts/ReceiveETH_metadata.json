@@ -6,42 +6,40 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
 						"type": "uint256"
 					}
 				],
-				"name": "getString1",
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "getString2",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -57,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/017_Library.sol": "UseLibrary"
+			"contracts/020_SendETH.sol": "ReceiveETH"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -71,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/017_Library.sol": {
-			"keccak256": "0x4d0f8068589e8fb7a47ef9443ffc17bb2d40257c52ed7f4e2b7df16c624e420f",
+		"contracts/020_SendETH.sol": {
+			"keccak256": "0x065e0e3c191c8d2f78f34eae63bfec552bc8747e5919e72922beaf735686123d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1f189bee1e708ebd751240ac5c5193b256f0a2b92cecb639037de0a373cd15bf",
-				"dweb:/ipfs/QmWdu7nPF6NGAVomDs5446xANSe9CQKnSTU8NCFxLVD4kP"
+				"bzz-raw://f8e42fb6c1508d6dc36cbdac71fd8b459e70facf4d96d84006a8fccd789ff594",
+				"dweb:/ipfs/QmTRdRAaVEYgATJ2L4LPMn49wLytSHEJDzgY8aFQGVFeky"
 			]
 		}
 	},

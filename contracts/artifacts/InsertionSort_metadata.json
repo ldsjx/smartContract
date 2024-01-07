@@ -6,10 +6,55 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "doWhileTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forLoopTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "ifElseTest",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256[]",
-						"name": "a",
+						"name": "arr",
 						"type": "uint256[]"
 					}
 				],
@@ -19,6 +64,62 @@
 						"internalType": "uint256[]",
 						"name": "",
 						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "insertionSortWrong",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "ternaryTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +139,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/014_InsertionSort.sol": "InsertionSort"
+			"contracts/010_InsertionSort.sol": "InsertionSort"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -52,20 +153,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-			"keccak256": "0x4296879f55019b23e135000eb36896057e7101fb7fb859c5ef690cf14643757b",
+		"contracts/010_InsertionSort.sol": {
+			"keccak256": "0x5082c4fc100a5113185dc8d6875a8a5376faa57e409e91eec9dbf1ed52b9310d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://87b3541437c8c443ccd36795e56a338ed12855eec17f8da624511b8d1a7e14df",
-				"dweb:/ipfs/QmeJQCtZrQjtJLr6u7ZHWeH3pBnjtLWzvRrKViAi7UZqxL"
-			]
-		},
-		"contracts/014_InsertionSort.sol": {
-			"keccak256": "0xe0c408373f2caf1e958c7f43aa142f2aab20354b109651f6cf6cc50868323b95",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://535e6f8ef9fcf13b87ee3d11e44a65fbca8ba55b5fca7508a4d25a91cd90e84e",
-				"dweb:/ipfs/QmPTU1YMPeC9bqRQ4hz7ztXxb8VWbRkb6p4rRSgRa2Xg1g"
+				"bzz-raw://29df05e2159a04308dcbdcc46ed185132a61db40801341ed11169451f9eceb83",
+				"dweb:/ipfs/QmXpkcayeqXEpVcMQyqMpNFj6jRJfsfHAVTnJtMW3QNkKH"
 			]
 		}
 	},

@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "SendFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/020_SendETH.sol": "SendETH1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/020_SendETH.sol": {
+			"keccak256": "0x2a9387000e06a92fabca9741cacb9a63f8500db78b7c1d42f58bc49bfb69bc21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5adef5170baa1f4f5a4a354a7127cfcd307545f86295126ff2b94cf46fbfe6f0",
+				"dweb:/ipfs/QmNpqnvQCqCfo4K4WeyPFcPDhjdgDhuthgJBaxpdNQCi9w"
+			]
+		}
+	},
+	"version": 1
+}
