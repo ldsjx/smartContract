@@ -7,43 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "oldOwner",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "newOwner",
-						"type": "address"
-					}
-				],
-				"name": "OwnerSet",
-				"type": "event"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "newOwner",
-						"type": "address"
-					}
-				],
-				"name": "changeOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getOwner",
 				"outputs": [
 					{
@@ -60,15 +23,6 @@
 			"details": "Set & change owner",
 			"kind": "dev",
 			"methods": {
-				"changeOwner(address)": {
-					"details": "Change owner",
-					"params": {
-						"newOwner": "address of new owner"
-					}
-				},
-				"constructor": {
-					"details": "Set contract deployer as owner"
-				},
 				"getOwner()": {
 					"details": "Return owner address ",
 					"returns": {
@@ -102,11 +56,11 @@
 	},
 	"sources": {
 		"contracts/2_Owner.sol": {
-			"keccak256": "0x78bbbec96c5bc30ed379cb4c7bc96af4af5c71a2ed6cbd7b202097223e055294",
+			"keccak256": "0x93ec3342db3926b3926c389537edc9de468ff33d03223088663f03667e7f1dd0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4e78c8bdef7b614a92576df195209a00fcc09bbaa00ec98c0ea29cb2118da1c5",
-				"dweb:/ipfs/QmWrv2qJbxtDegicpu5rLGk4LgXvYvo1qXMW7qQpD6vGSX"
+				"bzz-raw://9886f734bffa6b553c5e5b1f02b8fe7022d57266e40ae59a9d6325eb03be33e2",
+				"dweb:/ipfs/QmTSpeoDgtt9Jpdia6RPt6t7etRXJBMwjaijHnkVYno1yR"
 			]
 		},
 		"hardhat/console.sol": {

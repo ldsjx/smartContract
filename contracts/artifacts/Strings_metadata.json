@@ -6,6 +6,7 @@
 	"output": {
 		"abi": [],
 		"devdoc": {
+			"details": "String operations.",
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -13,12 +14,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "库合约 站在巨人的肩膀上",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/013_Identifier.sol": "Base1"
+			"contracts/017_Library.sol": "Strings"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +34,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/013_Identifier.sol": {
-			"keccak256": "0xe67ccabf85a95f70ddbd06f152c555be07892ab9ee22e4c3ed155e0510ab5c1e",
+		"contracts/017_Library.sol": {
+			"keccak256": "0xe95c52aef171da9fbb4df91bfa8a3a43fa9a0dbc8ce45671a0dcd22e11452518",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c7ce8e17261cd3af0cefd384d159c1dadad34e058a51bc3eaa9f9f4069a0761d",
-				"dweb:/ipfs/QmQZrPa7rfe6V4FRmiCpqLZ49xPbHLmmNte8LUjBVfH8R2"
+				"bzz-raw://0ed8915bf69adc91ee4eae22526dd770a7ace57385bea5596a050e07a5b7d0e9",
+				"dweb:/ipfs/QmYmixn1D8rnRbFdeTXtS9kp9Fv7rcfkJNqR2ZmerGFJdV"
 			]
 		}
 	},
