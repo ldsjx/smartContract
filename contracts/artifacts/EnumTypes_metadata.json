@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/006_EnumTypes\n.sol": "EnumTypes"
+			"contracts/006_EnumTypes.sol": "EnumTypes"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/006_EnumTypes\n.sol": {
+		"contracts/006_EnumTypes.sol": {
 			"keccak256": "0x296a8b05c8925f5bfe7bc68078cfe23448373924015cf86054b6b3980595c754",
 			"license": "MIT",
 			"urls": [
