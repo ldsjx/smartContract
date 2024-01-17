@@ -7,12 +7,62 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "LogEvent",
+				"type": "event"
+			},
+			{
 				"inputs": [],
-				"name": "IMMUTABLE_ADDRESS",
+				"name": "factory",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					}
+				],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token0",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -25,54 +75,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "IMMUTABLE_BLOCK",
+				"name": "token1",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "IMMUTABLE_NUM",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "IMMUTABLE_TEST",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "test",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -89,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/009_Constant.sol": "Constant"
+			"contracts/025_Create2.sol": "Pair"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -103,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/009_Constant.sol": {
-			"keccak256": "0x59af4e66bbca58b38406ed44b7b9a3e55638bea52e196046565ccdff60dbb6c0",
+		"contracts/025_Create2.sol": {
+			"keccak256": "0xc198a107b1603f35ebdef2305fb0186128c83a403ece933b98f7bffaf35e5feb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a8b68cb1d2ece4e0cdc8f334db033fee923b075526b6bff6f8a4b9504f6612ad",
-				"dweb:/ipfs/QmbPUhd4tybGveuGfyGgpWAgRo9wV5nKbQwFiEKfmj6Ecm"
+				"bzz-raw://5baaed40c82637877b3e256c3a2febf959e111f2a1f1485a3a09c2fe3ce0280e",
+				"dweb:/ipfs/QmVKUpsphmg289Wujw7NvLyvEyoGStLSw9AevmdyYFeRm3"
 			]
 		}
 	},

@@ -8,17 +8,55 @@
 			{
 				"inputs": [
 					{
+						"internalType": "contract OtherContract",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "CallGetX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "callGetX2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Address",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "callB",
+				"name": "callSetX",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -27,31 +65,18 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "otherContract",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "delegatecallB",
+				"name": "setXTransferETH",
 				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numA",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -68,7 +93,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/023_Delegatecall.sol": "A"
+			"contracts/021_OtherContract.sol": "CallContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -82,12 +107,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/023_Delegatecall.sol": {
-			"keccak256": "0x545616f94a3670583e546679d0a63482b8e41794cf79685de03f7924643a6fce",
+		"contracts/021_OtherContract.sol": {
+			"keccak256": "0x45d87b343ff474ec79f06a1ebbc6e45093187cb9bb25c57e74439673bbd85e29",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0e63ee82465769df6bdddd41e19fbc4000fc4eb28bcc1c1c4975b5cbc6210458",
-				"dweb:/ipfs/QmdfNPnku163R9kXWWS7r3hXoo2foK8jBe81Drr7F1amZj"
+				"bzz-raw://d76f388b27cb30c646503fd93954eb2252f301fb867862d196790a7db5f35437",
+				"dweb:/ipfs/QmNcroJUdsQipTocnkWiWoyzjqCr1m5u78EX4GNGYQjbjU"
 			]
 		}
 	},

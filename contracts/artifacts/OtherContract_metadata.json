@@ -6,8 +6,31 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "num",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,12 +43,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "sender",
+				"name": "getX",
 				"outputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -35,14 +58,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "setVars",
+				"name": "setX",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -58,7 +85,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/023_Delegatecall.sol": "C"
+			"contracts/022_Call.sol": "OtherContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +99,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/023_Delegatecall.sol": {
-			"keccak256": "0x3df9f4fd6b04cd531a2606162eab8067fe1be2bc6cfb70478c9c1d908162a9e5",
+		"contracts/022_Call.sol": {
+			"keccak256": "0x2fadfd67af4a16fea28831d7ba0b30fd62c5177786e7412fe6909186f75e5c51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://94b693648e69d78ce133c00ae46709ad532f0f4e6e9dec650cc24f7c01d4befe",
-				"dweb:/ipfs/QmT1fuWQvWdULKmKAZHdVBMAGX27UwGayQFvYE2y97KhUM"
+				"bzz-raw://4960696739338d8ac7b67d2e7406782f3d51a4cdea2942da4b6ce3ea0a28e34f",
+				"dweb:/ipfs/QmYMzNyfHVwSU32Vc2axhBVzoBewNYMg3Lg7qHDgK49Anv"
 			]
 		}
 	},

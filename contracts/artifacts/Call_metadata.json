@@ -6,22 +6,23 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
+						"indexed": false,
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"name": "callB",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"name": "Response",
+				"type": "event"
 			},
 			{
 				"inputs": [
@@ -29,21 +30,9 @@
 						"internalType": "address",
 						"name": "_addr",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
 					}
 				],
-				"name": "delegatecallB",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numA",
+				"name": "callGetX",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -51,7 +40,38 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "callNonExist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetX",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -68,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/023_Delegatecall.sol": "A"
+			"contracts/022_Call.sol": "Call"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -82,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/023_Delegatecall.sol": {
-			"keccak256": "0x545616f94a3670583e546679d0a63482b8e41794cf79685de03f7924643a6fce",
+		"contracts/022_Call.sol": {
+			"keccak256": "0x2fadfd67af4a16fea28831d7ba0b30fd62c5177786e7412fe6909186f75e5c51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0e63ee82465769df6bdddd41e19fbc4000fc4eb28bcc1c1c4975b5cbc6210458",
-				"dweb:/ipfs/QmdfNPnku163R9kXWWS7r3hXoo2foK8jBe81Drr7F1amZj"
+				"bzz-raw://4960696739338d8ac7b67d2e7406782f3d51a4cdea2942da4b6ce3ea0a28e34f",
+				"dweb:/ipfs/QmYMzNyfHVwSU32Vc2axhBVzoBewNYMg3Lg7qHDgK49Anv"
 			]
 		}
 	},

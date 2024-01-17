@@ -6,44 +6,37 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "callB",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "delegatecallB",
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "deleteContract",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "numA",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -53,6 +46,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -68,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/023_Delegatecall.sol": "A"
+			"contracts/026_DeleteContract.sol": "DeleteContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -82,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/023_Delegatecall.sol": {
-			"keccak256": "0x545616f94a3670583e546679d0a63482b8e41794cf79685de03f7924643a6fce",
+		"contracts/026_DeleteContract.sol": {
+			"keccak256": "0xfa527fbab455dd199e66ec6dc6ec4db83fb4b8ada4ba4be82838f4700a908244",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0e63ee82465769df6bdddd41e19fbc4000fc4eb28bcc1c1c4975b5cbc6210458",
-				"dweb:/ipfs/QmdfNPnku163R9kXWWS7r3hXoo2foK8jBe81Drr7F1amZj"
+				"bzz-raw://d64f8b0c9de7aca012449c0c581cdf0090e87848f332309856b22f2c9099b877",
+				"dweb:/ipfs/QmZiFCEaDE3ZjgCooADHg6ujCrv2SRYcYiaxNiKPZ2A4rm"
 			]
 		}
 	},
